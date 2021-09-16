@@ -36,7 +36,7 @@ def signup():
 			
 
 		else:
-			flash(f"{email,user,password1,password2}",category="succ")
+			flash(f"Data can be used for creating accts",category="succ")
 
 			#database input
 	return render_template("sign_up.html")
